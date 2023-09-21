@@ -27,7 +27,7 @@ public class QuestionAnswer
         Console.WriteLine("Welcome to the form");
         Question question = E.NextQuestion();
 
-        while ((question is not null))
+        while ((question is not TerminalQuestion))
         {
             Console.WriteLine(question.GetQuestion());
 
